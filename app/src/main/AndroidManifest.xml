@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pichanguero.pichangueros" >
+
+
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name="com.pichanguero.pichangueros.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GreetingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GreetingCapitanActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GreetingJugadorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegistroActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bus_Equipo_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bus_Centro_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bus_Nivel_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bus_Enviar_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+        android:name=".ArrendarActivity"
+        android:label="@string/app_name" >
+    </activity>
+        <activity
+            android:name=".AyudaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bus_Envia_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DiaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TipoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CanchaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".HoraActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ConfirmaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Ins_Nivel_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Ins_Nombre_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Ins_Confirma_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Men_Mismensajes_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Men_Detalle_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Men_Respuesta_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GreetingProce_Activity"
+            android:noHistory="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Sol_Equipo_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Sol_Confirmar_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Sol_Capitan_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Sol_CapitanAcepta_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AdministrarEquipo_Capitan_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Capitan_Administra_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AdministrarEquipo_Jugador_Activity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

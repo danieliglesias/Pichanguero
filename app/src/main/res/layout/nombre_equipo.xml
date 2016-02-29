@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ingresa el nombre de tu equipo:"
+        android:id="@+id/textView2"
+        android:layout_weight="0.06"
+        android:layout_marginTop="50px"
+        android:textSize="26dp"
+        android:layout_marginLeft="20px"
+        android:textColor="#f9f9f9" />
+
+    <EditText
+        android:hint="escribe un nombre..."
+        android:textColorHint="#6E6E6E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nom"
+        android:background="#1C1C1C"
+        android:alpha="0.8"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.05"
+        android:layout_marginRight="20px"
+        android:layout_marginLeft="20px" />
+    <Button
+        android:id="@+id/btContinuar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR"
+        android:layout_alignParentStart="true"
+        android:background="#1C1C1C"
+        android:alpha="0.9"
+        android:textColor="#FFFFFF"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:textSize="40dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>

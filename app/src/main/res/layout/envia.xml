@@ -1,0 +1,89 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg2"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:text="Envio de Reto"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:hint="Escribe tu mensaje..."
+        android:textColorHint="#6E6E6E"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_id"
+        android:textSize="20dp"
+        android:inputType="textMultiLine"
+        android:background="#1C1C1C"
+        android:textColor="#FFFFFF"
+        android:longClickable="false"
+        android:minHeight="150dp"
+        android:alpha="0.9"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:padding="5px"/>
+
+
+    <Button
+        android:id="@+id/btn_envia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#1C1C1C"
+        android:alpha="0.9"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10px"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/et_id"
+        android:layout_alignParentTop="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="25dp"
+        android:background="#1C1C1C"
+        android:alpha="0.9"
+        android:id="@+id/textView5"
+
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="text"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        />
+
+
+</RelativeLayout>
